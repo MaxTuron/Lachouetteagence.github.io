@@ -699,20 +699,23 @@ p {
     font-weight: 700;
 }
 
-.social {
+.-facebook{
     max-width: 400px;
+    margin: auto auto auto auto;
 }
 
-.-facebook{
-    margin: auto auto auto auto;
-}
 .-twitter{
+    max-width: 400px;
     margin: auto auto auto auto;
 }
+
 .-dribble{
+    max-width: 400px;
     margin: auto auto auto auto;
 }
+
 .-instagram{
+    max-width: 400px;
     margin: auto auto auto auto;
 }
 

@@ -229,7 +229,7 @@ th {
     padding: 0
 }
 
-.col-sm-4 a{
+.col-sm-4 li, a{
     height: 48px;
 }
 

@@ -229,6 +229,10 @@ th {
     padding: 0
 }
 
+.col-sm-4 a{
+    height: 48px;
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
@@ -2329,9 +2333,6 @@ pre code {
     }
     .col-sm-4 {
         width: 33.33333333%;
-    }
-    .col-sm-4 a{
-        height: 48px;
     }
     .col-sm-3 {
         width: 25%

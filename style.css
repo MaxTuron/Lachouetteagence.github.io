@@ -701,6 +701,18 @@ p {
 
 .social {
     max-width: 400px;
+}
+
+.-facebook{
+    margin: auto auto auto auto;
+}
+.-twitter{
+    margin: auto auto auto auto;
+}
+.-dribble{
+    margin: auto auto auto auto;
+}
+.-instagram{
     margin: auto auto auto auto;
 }
 

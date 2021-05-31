@@ -7,16 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.img-respo
-{
-    width: 90%;
-}
-
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-    font-size: 18px;
 }
 
 a:hover {
@@ -106,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: white;
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc button:hover {
@@ -139,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -289,7 +283,6 @@ a:hover {
     padding-left: 0;
 }
 
-
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -346,7 +339,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 0;
+    border: 0px;
 }
 
 .navbar-toggle:hover {
@@ -401,7 +394,7 @@ a:hover {
         position: relative;
         width: 100%;
         right: 0;
-        margin-right: 0;
+        margin-right: 0px;
         margin-top: 20px;
     }
     .nav-center.mini-nav .navbar-toggle {
@@ -658,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #000000 !important;
+    color: #575757!important;
 }
 
 .container {
@@ -684,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -709,7 +702,6 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
-    color: black;
 }
 
 h2 {
@@ -727,7 +719,7 @@ h3 {
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
-    box-shadow: 0 0 0 #000000;
+    box-shadow: 0px 0px 0px #000000;
 }
 
 h1 {
@@ -744,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #ffffff !important;
+    color: #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -757,7 +749,7 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
@@ -783,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #ffffff !important;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
@@ -830,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -856,13 +848,13 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -881,7 +873,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding: 0 20px 0 0;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -890,7 +883,9 @@ h4 {
     }
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px 0 0;
+        padding: 0 20px;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
